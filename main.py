@@ -7,7 +7,7 @@ url = input("Enter YouTube video URL: ")
 ydl_opts = {
     'format': 'bestaudio/best',
     'outtmpl': '%(title)s.%(ext)s',  # Output filename = video title
-    'ffmpeg_location': '/Users/petrp/.local/bin/ffmpeg', 
+    #'ffmpeg_location': '/Users/petrp/.local/bin/ffmpeg', 
     'postprocessors': [{
         'key': 'FFmpegExtractAudio',
         'preferredcodec': 'mp3',
